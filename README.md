@@ -42,8 +42,8 @@ This prototype demonstrates the look, feel, and navigation flow intended for the
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/guardmytrip.git
-   cd guardmytrip
+   git clone https://github.com/yourusername/GuardianDesk.git
+   cd GuardianDesk
    ```
 
 2. **Install dependencies**
