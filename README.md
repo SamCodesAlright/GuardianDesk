@@ -1,4 +1,4 @@
-powershell -NoProfile -Command $Content = @'# GuardianDesk – Tourist Safety Monitoring Dashboard (UI Prototype)
+# GuardianDesk – Tourist Safety Monitoring Dashboard (UI Prototype)
 
 [![React](https://img.shields.io/badge/React-18.3.x-61DAFB.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.x-3178C6.svg)](https://www.typescriptlang.org/)
@@ -8,14 +8,12 @@ powershell -NoProfile -Command $Content = @'# GuardianDesk – Tourist Safety Mo
 
 Note: This repository contains a UI prototype for GuardianDesk—the dashboard local authorities can use to monitor tourist safety. It represents design and navigation only. There is no backend, real-time data, or production hardening yet.
 
+
 ## GuardianDesk Prototype Features (UI Only)
 
 - Government dashboard layout with top-level navigation and panels
-- Region/overview cards and KPI widgets
 - Charts and analytics (via Recharts) with sample/mock data
 - Alerts feed and basic filtering UI
-- Forms and inputs using shadcn/ui (Radix) components
-- Dark mode theming with Tailwind CSS
 - Responsive design across desktop and mobile
 - Client-side routing (React Router)
 - No authentication, persistence, or live integrations yet
@@ -26,11 +24,11 @@ This prototype demonstrates the look, feel, and navigation flow intended for the
 
 - Secure authentication and role-based access (Admin, Operator, Analyst)
 - Real-time alerts and geo-context (integrations with field apps/sensors)
-- Integrations with airport/hotel systems for check-in/ID verification
 - AI-assisted anomaly detection and automated e-FIR drafting
 - Incident reporting workflows and case management
 - Persistent storage (DB) for incidents, alerts, user activity
 - Multilingual assistant and accessibility improvements
+
 
 ## Getting Started
 
@@ -42,43 +40,38 @@ This prototype demonstrates the look, feel, and navigation flow intended for the
 
 ### Installation
 
-1. Clone the repository
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/GuardianDesk.git
-   cd GuardianDesk
+   git clone https://github.com/yourusername/guardmytrip.git
+   cd guardmytrip
    ```
 
-2. Install dependencies
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. Start the development server
+3. **Start the development server**
    ```bash
    npm run dev
    ```
-   Available at: http://localhost:8080/
-
-### Available Scripts
-
-- `npm run dev` — Start Vite dev server (port 8080 per `vite.config.ts`)
-- `npm run build` — Production build
-- `npm run build:dev` — Development-mode build
-- `npm run preview` — Preview the production build
-- `npm run lint` — Lint the project
+   The application will be available at `http://localhost:8080/`
 
 ## Built With
 
-- React 18
-- TypeScript 5
-- Vite 5 (React SWC plugin)
-- Tailwind CSS 3 (+ `tailwindcss-animate`)
-- shadcn/ui (Radix UI primitives)
-- React Router
-- TanStack Query
-- Recharts
-- Zod, React Hook Form, Sonner, Lucide React
-- ESLint
+## Built With
+
+- [React](https://reactjs.org/) – UI library for building modern interfaces  
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe JavaScript  
+- [Vite](https://vitejs.dev/) – Next-generation frontend build tool  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling  
+- [shadcn/ui](https://ui.shadcn.com/) – Headless, accessible UI components  
+- [React Router](https://reactrouter.com/) – Client-side routing  
+- [TanStack Query](https://tanstack.com/query) – Data fetching and caching  
+- [Recharts](https://recharts.org/) – Charting and analytics UI  
+- [Zod](https://zod.dev/) & [React Hook Form](https://react-hook-form.com/) – Form handling and validation  
+- [Sonner](https://sonner.emilkowal.ski/) – Toast & notification system  
+- [Lucide React](https://lucide.dev/) – Icon set for React apps  
 
 ## 📂 Project Structure
 
@@ -110,13 +103,8 @@ GuardianDesk/
 └── README.md                   # This file
 ```
 
-## Notes for Development
-
-- Tailwind is configured with class-based dark mode and extended design tokens in `tailwind.config.ts`.
-- An alias `@` points to `./src` (see `vite.config.ts`).
-- The app is currently wired with mock/sample data; replace with your service calls as you integrate a backend.
-
 ## Contact
 
-- Maintainer: Sameer Shaikh
-- Email: sameeritis10@gmail.com'@; Set-Content -Path 'd:\GuardianDesk\README.md' -Value $Content -Encoding UTF8
+Sameer Shaikh - sameeritis10@gmail.com
+
+UI Prototype Link: [https://guardiandesk.netlify.app/](https://guardiandesk.netlify.app/)
