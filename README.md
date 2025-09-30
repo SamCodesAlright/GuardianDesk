@@ -8,6 +8,8 @@
 
 Note: This repository contains a UI prototype for GuardianDesk—the dashboard local authorities can use to monitor tourist safety. It represents design and navigation only. There is no backend, real-time data, or production hardening yet.
 
+UI Prototype Link: [https://guardiandesk.netlify.app/](https://guardiandesk.netlify.app/)
+
 
 ## GuardianDesk Prototype Features (UI Only)
 
@@ -103,8 +105,3 @@ GuardianDesk/
 └── README.md                   # This file
 ```
 
-## Contact
-
-Sameer Shaikh - sameeritis10@gmail.com
-
-UI Prototype Link: [https://guardiandesk.netlify.app/](https://guardiandesk.netlify.app/)
