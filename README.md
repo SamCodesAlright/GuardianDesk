@@ -10,6 +10,7 @@ Note: This repository contains a UI prototype for GuardianDesk—the dashboard l
 
 UI Prototype Link: [https://guardiandesk.netlify.app/](https://guardiandesk.netlify.app/)
 
+Video Explanation of Prototype: [https://www.loom.com/share/92d95c1f944f4014ac077067d97d549a?sid=99211865-82af-4c3c-993a-c42973a32704](https://www.loom.com/share/92d95c1f944f4014ac077067d97d549a?sid=99211865-82af-4c3c-993a-c42973a32704)
 
 ## GuardianDesk Prototype Features (UI Only)
 
